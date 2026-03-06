@@ -1,0 +1,136 @@
+.hero-box {
+    background: linear-gradient(to bottom, rgb(255, 0, 0), rgba(220, 127, 14, 0.822));
+    border-radius: 10px;
+    height: 70vh;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.hero-benner-text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-tagline {
+    color: #e99f20;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 span {
+    color: orange;
+}
+
+.order-btn {
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero-benner-img-box {
+    width: 400px;
+    height: 400px;
+}
+
+.hero-benner-img-box img {
+    filter: drop-shadow(10px 10px 10px rgb(255, 234, 0));
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    animation: bounceBurger 2s ease-in-out infinite;
+}
+
+/* bounceBurger Animation */
+@keyframes bounceBurger {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/*  Tablet Responsive  */
+
+@media (max-width: 1024px) {
+    .hero-box {
+        height: auto;
+        padding: 30px 10px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .hero-benner-img-box {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+/* Mobile Responsive  */
+
+@media (max-width: 768px) {
+
+    .hero-box {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 10px 10px;
+        gap: 30px;
+
+    }
+
+    .hero-benner-text-box {
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .hero-benner-img-box {
+        width: 300px;
+        height: 280px;
+    }
+
+    .order-btn {
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+}
+
+
+/* 📲 Small Mobile       */
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .hero-benner-img-box {
+        width: 200px;
+        height: 200px;
+    }
+
+    .hero-box {
+        border-radius: 0;
+        width: 100%;
+    }
+}

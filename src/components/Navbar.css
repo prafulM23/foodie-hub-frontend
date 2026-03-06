@@ -1,0 +1,168 @@
+.navbar {
+    margin: 5px auto;
+    width: 100%;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.navbar-logo-box {
+    background-color: red;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.navbar-logo-box h1 {
+    font-size: 28px;
+}
+
+.navbar-logo-box p {
+    text-align: end;
+    font-size: 12px;
+}
+
+.nav-logo-link {
+    text-decoration: none;
+}
+
+
+.navbar-menu ul {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid red;
+}
+
+
+.navbar-search-box {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    background-color: red;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.navbar-search-box input {
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+
+.navbar-humburg-box {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.navbar-humburg-ismenu {
+    display: none;
+    background-color: #fff;
+    width: 200px;
+    font-size: 15px;
+}
+
+/* ****************** TABLET (1024px) ****************** */
+
+@media (max-width:1024px) {
+
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .navbar-search-box {
+        width: 250px;
+    }
+
+    .navbar-menu ul {
+        font-size: 14px;
+        gap: 15px;
+    }
+
+    .navbar-logo-box h1 {
+        font-size: 22px;
+    }
+}
+
+/* ******************* MOBILE (768px)********************/
+
+@media (max-width:768px) {
+
+    .navbar {
+        padding: 10px 15px;
+    }
+
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar-humburg-box {
+        display: block;
+    }
+
+    .navbar-humburg-ismenu {
+        display: block;
+
+    }
+
+    .navbar-logo-box {
+        width: 100px;
+    }
+
+    .navbar-logo-box h1 {
+        font-size: 18px;
+    }
+
+    .navbar-logo-box p {
+        font-size: 10px;
+    }
+}
+
+/* ******************* SMALL MOBILE (480px) ******************* */
+
+@media (max-width:480px) {
+
+    .navbar-logo-box {
+        width: 90px;
+    }
+
+    .navbar-search-box {
+        display: none;
+    }
+
+    .navbar-logo-box h1 {
+        font-size: 16px;
+    }
+
+    .navbar {
+        padding: 8px 10px;
+    }
+}
