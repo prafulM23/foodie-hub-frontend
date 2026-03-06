@@ -27,7 +27,7 @@ const Footer = () => {
                     <div className="footer-box">
                         <h3>Contact</h3>
                         <p>India</p>
-                        <p>+91 79473993902</p>
+                        <p>+91 8966840666</p>
                         <p>food@foodiehub.com</p>
                     </div>
 

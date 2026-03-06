@@ -125,21 +125,6 @@ const Foods = () => {
                             <button>+ADD</button>
                         </div>
                     </div>
-
-                    <div className="food-grid-box1">
-                        <div className="food-img-box">
-                            <img src="/mealschicken.jpg" alt="" />
-                        </div>
-                        <div className="food-text-box1">
-                            <h1>Crispy Veg Burger</h1>
-                            <p>Crispy Hot & Testy Veg Burger</p>
-                        </div>
-                        <div className="food-price-btn-box">
-                            <p> 250/-</p>
-                            <button>+ADD</button>
-                        </div>
-                    </div>
-
                 </div>
 
 
