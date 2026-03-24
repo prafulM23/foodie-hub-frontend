@@ -6,10 +6,14 @@ import WhyChooseUs from "./SubHomePages/WhyChooseUs/WhyChooseUs"
 const Home = () => {
     return (
         <>
-            <Hero />
-            {/* <Categories /> */}
-            <Foods />
-            <WhyChooseUs />
+            <div className="home-box">
+                <Hero />
+                {/* <Categories /> */}
+                <Foods />
+                <WhyChooseUs />
+
+            </div>
+
         </>
     )
 }

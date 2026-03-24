@@ -40,7 +40,8 @@ const Navbar = () => {
                             </> : <>
                                 <li><Link className="nav-link" to="/"> <House size={25} color="red" />Home</Link></li>
                                 <li><Link className="nav-link" to="/cart"><ShoppingCart size={25} color="red" />Cart</Link></li>
-                                <li><Link className="nav-link" to="/login"><User size={25} color="red" />Login</Link></li>
+                                <li><Link className="login-nav-box" to="/login"><User size={25} color="white" />Login</Link></li>
+
                             </>
                         }
                     </ul>
@@ -67,6 +68,7 @@ const Navbar = () => {
                                     <li><Link className="nav-link" to="/"> <House size={25} color="red" />Home</Link></li>
                                     <li><Link className="nav-link" to="/cart"><ShoppingCart size={25} color="red" />Cart</Link></li>
                                     <li><Link className="nav-link" to="/login"><User size={25} color="red" />Login</Link></li>
+
                                 </>
                             }
                         </ul>

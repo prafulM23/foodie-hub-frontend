@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Home from './pages/HomePage/Home'
@@ -9,6 +9,7 @@ import Checkout from './pages/CheckoutPage/Checkout'
 import FoodDetail from './pages/FoodDetailPage/FoodDetail'
 import Myorder from './pages/MyOrderPage/MyOrder'
 import Footer from './components/Footer/Footer'
+import { useState } from 'react'
 
 function App() {
 
