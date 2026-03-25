@@ -19,6 +19,7 @@
 }
 
 .food-grid-box1 {
+    cursor: pointer;
     background-color: white;
     border-radius: 12px;
     height: 320px;

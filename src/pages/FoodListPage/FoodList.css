@@ -1,0 +1,39 @@
+.foodlist-navbar-box {
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    padding: 15px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.foodlist-navbar-box select {
+    padding: 6px 10px;
+    border-radius: 10px;
+    background: rgb(255, 64, 0);
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.foodlist-navbar-box h2 {
+    font-size: 23px;
+    font-weight: bold;
+    background: linear-gradient(to left, rgb(255, 0, 0), rgba(220, 127, 14, 0.822));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.foodlist-box {
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    padding: 20px;
+    background: #d3d2d2;
+}

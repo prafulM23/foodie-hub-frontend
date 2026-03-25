@@ -9,7 +9,7 @@ import Checkout from './pages/CheckoutPage/Checkout'
 import FoodDetail from './pages/FoodDetailPage/FoodDetail'
 import Myorder from './pages/MyOrderPage/MyOrder'
 import Footer from './components/Footer/Footer'
-import { useState } from 'react'
+import FoodList from './pages/FoodListPage/FoodList'
 
 function App() {
 
@@ -24,6 +24,7 @@ function App() {
         <Route path="/checkout" element={<Checkout />}></Route>
         <Route path="/fooddetail/:id" element={<FoodDetail />}></Route>
         <Route path="/myorder" element={<Myorder />}></Route>
+        <Route path="/foodlist" element={<FoodList />}></Route>
       </Routes>
       <Footer />
     </>

@@ -35,8 +35,8 @@ const Navbar = () => {
                         {
                             isLoggedIn ? <>
                                 <li><Link className="nav-link" to="/cart"><ShoppingCart size={25} color="red" />Cart</Link></li>
-                                <li><Link className="nav-link" to="/logout"><User size={25} color="red" />Logout</Link></li>
                                 <li><Link className="nav-link" to="/myorder"><CircleStar size={25} color="red" />My Order</Link></li>
+                                <li><Link className="login-nav-box" to="/logout"><User size={25} color="white" />Logout</Link></li>
                             </> : <>
                                 <li><Link className="nav-link" to="/"> <House size={25} color="red" />Home</Link></li>
                                 <li><Link className="nav-link" to="/cart"><ShoppingCart size={25} color="red" />Cart</Link></li>
